@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlue"
+    tools:context="com.onkarnene.myappportfolio.MainActivity">
+
+    <TextView
+        android:id="@+id/myNanoDegreeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/value_10"
+        android:layout_marginTop="@dimen/value_10"
+        android:text="@string/my_nanodegree_apps"
+        android:textSize="@dimen/size_22" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myNanoDegreeText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/value_20"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/popularMovieBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/value_5"
+            android:background="@color/colorOrange"
+            android:padding="@dimen/value_20"
+            android:text="@string/popular_movie" />
+
+        <Button
+            android:id="@+id/stockHawkBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/value_5"
+            android:background="@color/colorOrange"
+            android:padding="@dimen/value_20"
+            android:text="@string/stock_hawk" />
+
+        <Button
+            android:id="@+id/buildBiggerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/value_5"
+            android:background="@color/colorOrange"
+            android:padding="@dimen/value_20"
+            android:text="@string/build_it_bigger" />
+
+        <Button
+            android:id="@+id/appMaterialBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/value_5"
+            android:background="@color/colorOrange"
+            android:padding="@dimen/value_20"
+            android:text="@string/make_app_material" />
+
+        <Button
+            android:id="@+id/goUbiquitousBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/value_5"
+            android:background="@color/colorOrange"
+            android:padding="@dimen/value_20"
+            android:text="@string/go_ubiquitous" />
+
+        <Button
+            android:id="@+id/capstoneBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/value_5"
+            android:background="@color/colorOrangeDark"
+            android:padding="@dimen/value_20"
+            android:text="@string/capstone" />
+    </LinearLayout>
+</RelativeLayout>
